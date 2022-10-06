@@ -108,7 +108,7 @@ class AuthTests {
                                         {
                                             "username": "user1",
                                             "password": ""
-                                        }
+                                        } 
                                         """.stripIndent())
 								.contentType(new MediaType(MediaType.APPLICATION_JSON, StandardCharsets.UTF_8))
 				)
