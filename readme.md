@@ -13,3 +13,22 @@
       - 회원 정보가 일치하는지 확인
       - JWT 형식의 accessToken을 발급
       - 세션자체가 없기 때문에 매번 memberContext를 넘겨줘야됨.
+
+<br>
+
+* 세션
+    * http://localhost:8080/article/lsit
+    * http://localhost:8080/article/1/modify
+    * http://localhost:8080/article/1/delete
+    * http://localhost:8080/article/1
+
+<br>
+
+* REST
+    * GET http://localhost:8080/articles : 리스트조회
+    * POST http://localhost:8080/articles : 작성
+    * GET http://localhost:8080/articles/5 : 단건 조회
+    * PUT http://localhost:8080/articles : 단건수정
+    * DELETE http://localhost:8080/articles : 삭제
+
+<hr>
