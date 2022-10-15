@@ -31,4 +31,9 @@
     * PUT http://localhost:8080/articles : 단건수정
     * DELETE http://localhost:8080/articles : 삭제
 
-<hr>
+<br>
+
+* springdoc은 내부적으로 swagger라는 것을 이용한다. springdoc-openapi은 컨트롤러를 읽는다.
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
